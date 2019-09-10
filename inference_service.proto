@@ -16,8 +16,8 @@ message ImageBatchRequest {
 message Rectangle {
     double xlt = 1;
     double ylt = 2;
-    double width = 3;
-    double height = 4;
+    double xrb = 3;
+    double yrb = 4;
 }
 message RLE {
     repeated int32 size = 1;
